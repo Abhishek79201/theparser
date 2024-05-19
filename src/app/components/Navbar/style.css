@@ -1,0 +1,54 @@
+/* components/Navbar.module.css */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* background: #3131b1b3; */
+    background: linear-gradient(
+        90deg,
+        #F0EBF8 0%,
+        rgba(49, 49, 177, 1) 60%,
+        rgba(49, 49, 177, 0.6) 100%
+      );
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: all 0.3s ease;
+  }
+  
+  .navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 60px;
+  }
+  
+  .navLogo {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navMenu {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navItem {
+    margin-left: 20px;
+  }
+  
+  .navLink {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navLink:hover {
+    color: #ff6347; /* or any color you prefer for the hover effect */
+  }
+  
